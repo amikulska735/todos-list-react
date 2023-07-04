@@ -6,23 +6,17 @@
     cursor: pointer;
 }
 
-.button--markAllDoneButton:hover {
+.buttons__button:hover {
     color: rgb(18, 201, 233);
 }
-.button--markAllDoneButton:active {
+.buttons__button:active {
     border: 2px solid rgb(0, 0, 0);
 }
 
-.button--markAllDoneButton:disabled {
+.buttons__button:disabled {
     color: gray;
 }
 
-.button--toggleHideDoneButton:hover {
-    color: rgb(18, 201, 233);
-}
-.button--toggleHideDoneButton:active {
-    border: 2px solid rgb(0, 0, 0);
-}
 @media(max-width: 767px) {
     
     .buttons__button {
