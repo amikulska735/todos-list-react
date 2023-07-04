@@ -1,3 +1,7 @@
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
 .buttons__button {
     background-color: white;
     border: none;
@@ -14,7 +18,7 @@
 }
 
 .buttons__button:disabled {
-    color: gray;
+    color: rgb(128, 128, 128);
 }
 
 @media(max-width: 767px) {
