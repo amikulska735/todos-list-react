@@ -9,18 +9,15 @@
     transition: color 1s;
     cursor: pointer;
 }
-
 .buttons__button:hover {
     color: rgb(18, 201, 233);
 }
 .buttons__button:active {
     border: 2px solid rgb(0, 0, 0);
 }
-
 .buttons__button:disabled {
     color: rgb(128, 128, 128);
 }
-
 @media(max-width: 767px) {
     
     .buttons__button {
