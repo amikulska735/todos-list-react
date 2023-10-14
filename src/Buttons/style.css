@@ -16,7 +16,7 @@
     border: 2px solid rgb(0, 0, 0);
 }
 .buttons__button:disabled {
-    color: rgb(128, 128, 128);
+    color: lightgray
 }
 @media(max-width: 767px) {
     
