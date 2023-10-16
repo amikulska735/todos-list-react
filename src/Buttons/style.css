@@ -3,7 +3,7 @@
     flex-wrap: wrap;
 }
 .buttons__button {
-    background-color: white;
+    background-color: transparent;
     border: none;
     color: rgb(9, 114, 133);
     transition: color 1s;
